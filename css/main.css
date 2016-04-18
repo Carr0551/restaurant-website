@@ -229,11 +229,19 @@ img {
 }
 
 .deal-one {
-  width: 45%;
   display: block;
+  text-align: center;
+  background-color: #aaa;
+  width: 45%;
+  margin: .5em .5em .25em .5em;
+  float: left;
 }
 
 .deal-two{
-  width: 45%;
   display: block;
+  text-align: center;
+  background-color: #aaa;
+  width: 45%;
+  margin: .5em .5em .25em .5em;
+  float: left;
 }
