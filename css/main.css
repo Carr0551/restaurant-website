@@ -127,35 +127,39 @@ body {
 }
 
 .menu {
-  float: left;
-  background-color: #e2e2e2;
-  width: 25%;
+  background-color: #aaa;
+  width: 90%;
+  margin: 1em;
 }
 
 .location {
-  float: left;
-  background-color: #ccc;
-  width: 25%;
+  background-color: #aaa;
+  width: 90%;
+  margin: 1em;
 }
 
 .specials {
-  float: left;
   background-color: #aaa;
-  width: 25%;
+  width: 90%;
+  margin: 1em;
 }
 
 .apply {
-  float: left;
-  background-color: #999;
-  width: 25%;
+  display: block;
+  text-align: center;
+  background-color: #aaa;
+  width: 90%;
+  margin: 1em;
 }
 .cards {
-  margin: 0;
   background-color: #f2f2f2;
+  width: 90%;
+  margin: 1em;
 }
 
 h2 {
   font-size: 1rem;
+  margin: auto;
 }
 
 .cards p {
@@ -165,7 +169,7 @@ h2 {
 
 img {
   display: block;
-  width: 35%;
+  width: 95%;
   text-align: center;
   margin: auto;
 }
@@ -173,4 +177,63 @@ img {
 .btn-card:hover {
   background-color; #000;
   color: #fff;
+}
+
+.circle {
+  width: 45%;
+  display: block;
+}
+
+.breakfast {
+  display: block;
+  text-align: center;
+  background-color: #aaa;
+  width: 45%;
+  margin: .5em .5em .25em .5em;
+  float: left;
+}
+
+.coffee {
+  display: block;
+  text-align: center;
+  background-color: #aaa;
+  width: 45%;
+  margin: .5em .5em .25em .5em;
+  float: left;
+}
+
+.baked-goods {
+  display: block;
+  text-align: center;
+  background-color: #aaa;
+  width: 45%;
+  margin: .5em .5em .25em .5em;
+  float: left;
+}
+
+.lunch {
+  display: block;
+  text-align: center;
+  background-color: #aaa;
+  width: 45%;
+  margin: .5em .5em .25em .5em;
+  float: left;
+}
+
+.meal-cards p:nth-child(2) {
+  text-align: left;
+}
+
+.meal-cards h2 {
+  text-align: left;
+}
+
+.deal-one {
+  width: 45%;
+  display: block;
+}
+
+.deal-two{
+  width: 45%;
+  display: block;
 }
