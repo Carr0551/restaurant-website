@@ -91,15 +91,13 @@ p {
 
 .btn {
   color: #fff;
-  background-color: #000;
-  font-size: .5rem;
-  display: inline-block;
-  padding: .5em 1em .5em;
-  border: 2px solid;
-  border-color: #000;
+  border-color: #333;
+  background-color: #333;
+  font-size: 0.875rem;
   border-radius: 8px;
+  display: inline-block;
+  padding: .5em;
   text-decoration: none;
-  text-align: center;
 }
 
 .btn-big {
@@ -113,4 +111,66 @@ p {
 
 body {
   margin: 0;
+}
+
+.btn-card {
+  color: #fff;
+  background-color: #000;
+  font-size: .5rem;
+  display: inline-block;
+  padding: .5em 1em .5em;
+  border: 2px solid;
+  border-color: #000;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu {
+  float: left;
+  background-color: #e2e2e2;
+  width: 25%;
+}
+
+.location {
+  float: left;
+  background-color: #ccc;
+  width: 25%;
+}
+
+.specials {
+  float: left;
+  background-color: #aaa;
+  width: 25%;
+}
+
+.apply {
+  float: left;
+  background-color: #999;
+  width: 25%;
+}
+.cards {
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+.cards p {
+  font-weight: normal;
+  font-size: 0.875rem;
+}
+
+img {
+  display: block;
+  width: 35%;
+  text-align: center;
+  margin: auto;
+}
+
+.btn-card:hover {
+  background-color; #000;
+  color: #fff;
 }
