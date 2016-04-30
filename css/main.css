@@ -23,7 +23,7 @@ body {
 }
 
 main {
-	margin: .5rem;
+	margin: .2rem;
 }
 
 header {
@@ -196,6 +196,7 @@ h2 {
 .card {
 	margin: auto;
 	text-align: center;
+	padding-bottom: .5em;
 }
 
 .breakfast,
@@ -240,11 +241,48 @@ h2 {
 	margin-bottom: 2rem;
 }
 
-.apply-text {
-	width: 35em;
+.section p {
+	font-weight: normal;
+	font-size: 0.875rem;
+}
+
+.section-one,
+.section-two,
+.section-three{
+	background-color: #aeaeae;
+	margin-bottom: .5em;
+	display: block;
+	width: 100%;
+	float: left;
+	margin-top: .5rem;
+}
+
+.title {
+	background-color: #aeaeae;
+	padding-bottom: 0;
+}
+
+
+.apply-text,
+.breakfast p:first-of-type {
 	margin: 0 auto;
 	text-align: left;
+	font-size: 0.675rem;
+	padding-top: .2rem;
 }
+
+.deal-one p,
+.deal-two p {
+	font-size: .2rem;
+	line-height: .3rem;
+	font-weight: normal;
+}
+
+	.title p,
+	.section-one p,
+	.apply-text p {
+		font-size: 0.675rem;
+	}
 
 .copyright {
 	float: left;
