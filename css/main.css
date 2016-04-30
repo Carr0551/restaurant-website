@@ -197,6 +197,7 @@ h2 {
 	margin: auto;
 	text-align: center;
 	padding-bottom: .5em;
+	display: block;
 }
 
 .breakfast,
@@ -313,6 +314,47 @@ footer {
 	text-decoration: none;
 }
 
-@media only screen and (min-width: 25em) {
+section {
+	display: block;
+}
 
+@media only screen and (min-width: 38em) {
+
+	.section,
+	.cards,
+	.img-flex {
+		display: inline-block;
+		width: 25%;
+		}
+
+.image-banner {
+	width: 100%;
+	}
+}
+
+@media only screen and (min-width: 60em) {
+
+	.menu,
+	.location,
+	.specials,
+	.apply {
+		display: inline-block;
+		float: left;
+		width: 25%;
+		}
+		.image-banner {
+			width: 100%;
+			}
+}
+
+@media only screen and (min-width: 90em) {
+
+.section,
+.cards {
+	display: inline-block;
+	width: 25%;
+	}
+	.image-banner {
+		width: 100%;
+		}
 }
