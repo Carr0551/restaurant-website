@@ -155,7 +155,7 @@ body {
 }
 
 .btn-card:hover {
-  background-color; #000;
+  background-color: #000;
   color: #fff;
 }
 
@@ -197,7 +197,7 @@ h2 {
 	margin: auto;
 	text-align: center;
 	padding-bottom: .5em;
-	display: block;
+	display: inline-block;
 }
 
 .breakfast,
@@ -275,7 +275,7 @@ h2 {
 .deal-one p,
 .deal-two p {
 	font-size: .2rem;
-	line-height: .3rem;
+	line-height: .3;
 	font-weight: normal;
 }
 
@@ -318,19 +318,25 @@ section {
 	display: block;
 }
 
+@media only screen and (min-width: 25em) {
+	.img-banner {
+		width: 100%;
+	}
+
 @media only screen and (min-width: 38em) {
 
-	.section,
-	.cards,
-	.img-flex {
+	.cards {
 		display: inline-block;
-		width: 25%;
+		width: 20%;
 		}
 
 .image-banner {
 	width: 100%;
 	}
-}
+	html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
 @media only screen and (min-width: 60em) {
 
@@ -339,12 +345,19 @@ section {
 	.specials,
 	.apply {
 		display: inline-block;
-		float: left;
-		width: 25%;
+		width: 20%;
 		}
 		.image-banner {
 			width: 100%;
 			}
+p {
+    font-size: 130%;
+}
+html {
+	font-size: 120%;
+	line-height: 1.5;
+}
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -352,9 +365,10 @@ section {
 .section,
 .cards {
 	display: inline-block;
-	width: 25%;
+	width: 20%;
 	}
 	.image-banner {
 		width: 100%;
-		}
+	}
+
 }
